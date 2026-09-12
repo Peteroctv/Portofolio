@@ -966,4 +966,59 @@ section {
   .project:nth-child(2) .project-image img {
     object-fit: contain;
 }
+  /* =========================
+   ASAL SEKOLAH
+========================= */
+
+.school {
+    background: var(--bg-color);
+}
+
+.school-container {
+    max-width: 70rem;
+
+    margin: 0 auto;
+
+    padding: 4rem 3rem;
+
+    text-align: center;
+
+    background: var(--second-bg-color);
+
+    border: .2rem solid transparent;
+
+    border-radius: 2rem;
+
+    transition: .4s ease;
+}
+
+.school-container:hover {
+    transform: translateY(-8px);
+
+    border-color: var(--main-color);
+
+    box-shadow:
+        0 0 1.5rem var(--main-color),
+        inset 0 0 1rem rgba(0, 171, 240, .1);
+}
+
+.school-container i {
+    font-size: 6rem;
+
+    color: var(--main-color);
+
+    margin-bottom: 1.5rem;
+}
+
+.school-container h3 {
+    font-size: 2.8rem;
+
+    margin-bottom: 1rem;
+}
+
+.school-container p {
+    font-size: 1.6rem;
+
+    color: #bbb;
+}
 }
